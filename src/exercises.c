@@ -54,18 +54,29 @@ int i=10;
 
   for(int i=1;i<=l;i++)
   {
-    printf("%d,",l);
     if(i==l)
     {
       printf("%d",l);
     }
+    printf("%d,",l);
   }
   //done q3
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
 
   int k;
-  printf("enter a number you want squares of:")
+  printf("enter a number you want squares of:");
+    scanf("%d", &k);
+  for(int i=1;i<=k;i++)
+  {
+    if(i==k)
+    {
+      printf("%d",i*i);
+    }
+    printf("%d,",i*i );
+  }
+
+  //done q4
 
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
