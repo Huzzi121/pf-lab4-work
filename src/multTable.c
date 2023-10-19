@@ -34,6 +34,7 @@ int main(int argc, char **argv) {
 
     for(i=1;i<=n;i++)
     {
+      printf("%5d", i);
       for(j=1;j<=n;j++)
       {
         printf("%4d",i*j);
