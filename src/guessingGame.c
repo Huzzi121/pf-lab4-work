@@ -46,10 +46,11 @@ int main(int argc, char **argv) {
   }
 
   //TODO: place your code here
- 
+  if(guess==number)
+  {
 
   
   printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
-  
+  }
   return 0;
 }
