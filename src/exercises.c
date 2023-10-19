@@ -81,9 +81,29 @@ int i=10;
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
 
+  int m;
+   printf("enter a number:");
+    scanf("%d", &m);
+
+    for(int i=1;i<=m;i++)
+    {
+      int sum=0;
+      sum=sum+i;
+      printf("Sum=%d", sum);
+    }
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
+      int j;
+       printf("enter a number:");
+        scanf("%d", &j);
 
+      for(int i=1;i<=j;i++)
+      {
+        int sum=0;
+        sum=sum+(i*i);
+        printf("sum=%d", sum);
+      }
+//q6 done
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
 
