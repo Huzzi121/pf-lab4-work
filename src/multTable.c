@@ -22,9 +22,9 @@ int main(int argc, char **argv) {
   }
 
   int i,j,n;
-
+  printf("      ");
   printf("enter the number you want the tables up to ");
-    scanf("%d", &n);
+    scanf("%4d", &n);
 
     for(j=1;j<=n;j++)
     {
@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
     {
       for(j=1;j<=n;j++)
       {
-        printf("%d",i*j);
+        printf("%4d",i*j);
       }
       printf("\n");
     }
