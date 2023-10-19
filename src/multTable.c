@@ -21,7 +21,16 @@ int main(int argc, char **argv) {
     exit(0);
   }
 
-  //TODO: place your code here
+  int i,j,n;
+
+  printf("enter the number you want the tables up to ");
+    scanf("%d", &n);
+
+    for(j=1;j<=n;j++)
+    {
+      printf("%d", j);
+    }
+    printf("\n");
 
   return 0;
 }
