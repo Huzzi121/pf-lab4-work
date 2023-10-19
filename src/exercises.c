@@ -35,20 +35,37 @@ int i=10;
   }
   //done q1
 
-  
+
   //2. Rewrite the given while loop as an equivalent for loop
-  int k = 3;
-  while(k > -4) {
-    printf("%d ", k);
-    k--;
+ 
+
+  for(int k=3;k>-4;k--)
+  {
+    printf("%d",k);
   }
   printf("\n");
+  //done q2
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
+  int l;
+  printf("enter a number:");
+    scanf("%d", &l);
 
+  for(int i=1;i<=l;i++)
+  {
+    printf("%d,",l);
+    if(i==l)
+    {
+      printf("%d",l);
+    }
+  }
+  //done q3
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
+
+  int k;
+  printf("enter a number you want squares of:")
 
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
