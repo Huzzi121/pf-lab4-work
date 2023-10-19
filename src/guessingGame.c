@@ -38,7 +38,10 @@ int main(int argc, char **argv) {
     {
       printf("you entered a larger number!\n");
     }
-   
+    else if(guess<number)
+    {
+      printf("you entered a smaller number!\n");
+    }
     scanf("%d", &guess);
   }
 
